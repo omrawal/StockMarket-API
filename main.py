@@ -93,6 +93,24 @@ def get_bse_indices():
     if len(response_list) < 1:
         raise HTTPException(status_code=404,
                             detail=f"No Data found for BSE indices")
+
+    return response_list
+
+
+@app.get('/get_global_indices')
+def get_global_indices():
+    global_index = Indices()
+    global_index_response_list = global_index.get_global_indices()
+
+    response_list = []
+    for index_details in global_index_response_list:
+        index_details_json = json.loads(index_details)
+        for key in index_details_json:
+            response_list.append(QuoteDetails(**index_details_json[key]))
+
+    if len(response_list) < 1:
+        raise HTTPException(status_code=404,
+                            detail=f"No Data found for Global indices")
     return response_list
 
 

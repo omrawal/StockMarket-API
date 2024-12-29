@@ -1,0 +1,51 @@
+{
+  "Nikkie":{
+  "country": "Japan",
+  "continent":"Asia",
+  "link": "https://www.google.com/finance/quote/NI225:INDEXNIKKEI",
+  "ticker_symbol":"NI225",
+  "exchange_symbol":"INDEXNIKKEI"
+},
+  "Hangseng":{
+  "country": "HongKong",
+  "continent":"Asia",
+  "link": "https://www.google.com/finance/quote/HSI:INDEXHANGSENG",
+  "ticker_symbol":"HSI",
+  "exchange_symbol":"INDEXHANGSENG"
+},
+  "Sensex":{
+  "country": "India",
+  "continent":"Asia",
+  "link": "https://www.google.com/finance/quote/SENSEX:INDEXBOM",
+  "ticker_symbol":"SENSEX",
+  "exchange_symbol":"INDEXBOM"
+},
+  "dow jones":{
+  "country": "US",
+  "continent":"America",
+  "link": "https://www.google.com/finance/quote/.DJI:INDEXDJX",
+  "ticker_symbol":".DJI",
+  "exchange_symbol":"INDEXDJX"
+},
+  "SNP 500":{
+  "country": "US",
+  "continent":"America",
+  "link": "https://www.google.com/finance/quote/.INX:INDEXSP",
+  "ticker_symbol":".INX",
+  "exchange_symbol":"INDEXSP"
+},
+  "NASDAQ":{
+  "country": "US",
+  "continent":"America",
+  "link": "https://www.google.com/finance/quote/.IXIC:INDEXNASDAQ",
+  "ticker_symbol":".IXIC",
+  "exchange_symbol":"INDEXNASDAQ"
+},
+  "FTSE 100":{
+  "country": "UK",
+  "continent":"Europe",
+  "link": "https://www.google.com/finance/quote/UKX:INDEXFTSE",
+  "ticker_symbol":"UKX",
+  "exchange_symbol":"INDEXFTSE"
+}
+}
