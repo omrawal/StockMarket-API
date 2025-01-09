@@ -1,5 +1,9 @@
 # StockMarket-API
 API REST endpoints for live stock prices. 
+
+## BASE PACKAGE Repo
+[https://github.com/omrawal/Stock-Snap](https://github.com/omrawal/Stock-Snap)
+
 # FastAPI Application
 
 This document describes the API structure of the FastAPI application, which provides endpoints for retrieving stock quotes and various indices.
